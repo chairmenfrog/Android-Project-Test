@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">note2me</string>
+        <string name="action_settings">Settings</string>
+
+        <!-- 主界面 -->
+
+        <string name="search_btn">搜索记事</string>
+        <string name="add_btn">添加</string>
+        <!-- update页面 -->
+        <string name="save_btn">保存</string>
+        <string name="delete_btn">删除</string>
+        <string name="back_btn">返回</string>
+        <string name="confirm_btn">确认修改</string>
+        <string name="delete_note">删除记事</string>
+        <string name="note_deleted">记事已删除</string>
+
+        <!-- delete对话框 -->
+        <string name="delete_yes">删除记事</string>
+        <string name="delete_no">取消删除</string>
+        <string name="word_yes">是</string>
+        <string name="word_no">否</string>
+        <string name="update_note">修改记事</string>
+        <!-- add页面 -->
+        <string name="title_hint">标题</string>
+        <string name="note_saved">记事已保存</string>
+        <string name="note_null">写点什么吧~</string>
+        <string name="clear_btn">清空</string>
+        <string name="clear_note">清空内容</string>
+        <string name="clear_cancel">取消清空</string>
+        <string name="content_hint">写点什么呢？</string>
+        <string name="new_note">新的记事</string>
+
+
+        <!-- 对话框的样式 -->
+        <style name="dialog" parent="@android:style/Theme.Dialog">
+            <item name="android:windowFrame">@null</item> <!-- 边框 -->
+            <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
+            <item name="android:windowNoTitle">true</item> <!-- 无标题 -->
+            <item name="android:backgroundDimEnabled">true</item> <!-- 模糊 -->
+            <!--背景颜色及透明程度-->
+            <item name="android:windowBackground">@android:color/transparent</item>
+        </style>
+
+</resources>
